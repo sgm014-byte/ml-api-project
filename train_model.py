@@ -34,6 +34,4 @@ model.fit(X_train, y_train)
 
 # --- NEW STEP: Save the trained model to a file ---
 # --- This is the DEPLOYED model ---
-joblib.dump(model, "churn_model.pkl")
 
-print("Model saved as churn_model.pkl")
